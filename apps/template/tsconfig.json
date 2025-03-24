@@ -1,0 +1,12 @@
+{
+  "extends": "@packages/typescript-config/base.json",
+  "compilerOptions": {
+    "plugins": [],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", ".next"]
+}
