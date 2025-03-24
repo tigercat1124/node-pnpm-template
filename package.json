@@ -1,0 +1,29 @@
+{
+  "name": "node-pnpm-template",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "debug": "turbo debug",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "test:coverage": "turbo test:coverage",
+    "tsc": "turbo tsc",
+    "format": "biome format --write",
+    "check": "biome check",
+    "prepare": "pnpm hooks:change-hooks",
+    "hooks:change-hooks": "if [ \"${NODE_ENV}\" != 'production' ] && [ \"${CI}\" != 'true' ]; then git config --local core.hooksPath .githooks ; fi"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22.12.0",
+    "pnpm": ">=9.15.0",
+    "npm": "pnpmを使用してください",
+    "yarn": "pnpmを使用してください"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "catalog:",
+    "turbo": "^2.4.4",
+    "typescript": "catalog:"
+  }
+}
