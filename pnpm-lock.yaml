@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@types/node':
-      specifier: ^22.13.13
-      version: 22.13.13
+      specifier: ^22.19.0
+      version: 22.19.0
     typescript:
       specifier: ^5.8.2
       version: 5.8.2
@@ -22,7 +22,7 @@ importers:
         version: 1.9.4
       '@types/node':
         specifier: 'catalog:'
-        version: 22.13.13
+        version: 22.19.0
       turbo:
         specifier: ^2.4.4
         version: 2.4.4
@@ -246,8 +246,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@22.13.13':
-    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
+  '@types/node@22.19.0':
+    resolution: {integrity: sha512-xpr/lmLPQEj+TUnHmR+Ab91/glhJvsqcjB+yY0Ix9GO70H6Lb4FHH5GeqdOE5btAx7eIMwuHkp4H2MSkLcqWbA==}
 
   esbuild@0.25.1:
     resolution: {integrity: sha512-BGO5LtrGC7vxnqucAe/rmvKdJllfGaYWdyABvyMoXQlfYMb2bbRuReWR5tEGE//4LcNJj9XrkovTqNYRFZHAMQ==}
@@ -309,8 +309,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
 snapshots:
 
@@ -424,9 +424,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.1':
     optional: true
 
-  '@types/node@22.13.13':
+  '@types/node@22.19.0':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 6.21.0
 
   esbuild@0.25.1:
     optionalDependencies:
@@ -501,4 +501,4 @@ snapshots:
 
   typescript@5.8.2: {}
 
-  undici-types@6.20.0: {}
+  undici-types@6.21.0: {}
