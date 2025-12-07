@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@packages/typescript-config": "workspace:*",
-    "tsx": "^4.19.3"
+    "tsx": "^4.21.0"
   }
 }
