@@ -23,7 +23,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "catalog:",
-    "turbo": "^2.4.4",
+    "turbo": "^2.7.3",
     "typescript": "catalog:"
   }
 }
